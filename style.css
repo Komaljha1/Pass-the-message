@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background: transparent; 
+    color: #fcbe24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url('photo.jpeg');
+  }
+  
+  .container{
+    position: relative;
+    height: 320px;
+    width: 487px;
+    background: #7adcdc;
+    border: 11px solid white;
+  }
+  
+  .buttons{
+    color: black;
+    height: 60px;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+  }
+  
